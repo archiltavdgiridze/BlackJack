@@ -1,0 +1,49 @@
+:root {
+  font-family: ;
+}
+
+
+body {
+  background-color: rgb(3, 25, 85);
+}
+
+.container {
+  /* display: flex;
+  justify-content: center; */
+  width: 500px;
+  margin: auto;
+}
+
+.title {
+  color: goldenrod;
+}
+
+.title h1 {
+  font-size: 3rem;
+}
+
+.game p {
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.startbtn,
+.newbtn {
+  width: 150px;
+  height: 40px;
+
+  font-size: 1.3rem;
+
+  color: #fff;
+  background-color: transparent;
+
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.startbtn:hover,
+.newbtn:hover {
+  background-color: #fff;
+  color: rgb(3, 25, 85);
+  transition: 0.3s;
+}
